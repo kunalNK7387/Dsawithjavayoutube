@@ -5,7 +5,7 @@ public class Pattern12 {
         for(int i=1;i<=n;i++){
             int count='A'+n-i;
             for(int j=1;j<=i;j++){
-                System.out.print((char)count+"");
+                System.out.print((char)count);
                count++;  
                 
             }
